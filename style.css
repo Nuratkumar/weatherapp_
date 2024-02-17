@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://assamtribune.com/h-upload/2022/03/01/1330873-clouds-weather.webp);
+}
+.container{
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+}
+#main{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: rgb(219, 224, 224);
+    height: 150px;
+}
+.city{
+    height: 4rem;
+    width: 20rem;
+    background: rgb(14, 18, 17);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(16, 14, 12);
+    border-radius: 3px;
+    margin-right: 4px;
+}
+.add{
+    height: 3rem;
+    width: 6rem;
+    background:rgb(89, 16, 157);
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+}
+.display{
+    text-align: center;
+    width: 520px;
+    color: aqua;
+}
+.wrapper{
+    margin: 0 9rem;
+    background-color: azure;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+
+}
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+    background: rgb(14, 48, 78);
+    color: white;
+}
+.wrapper p
+{
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: rgb(237, 25, 53);
+    font-size: 23px;
+}
+.wrapper h2 span{
+    color: blueviolet;
+    font-size: 26px;
+}
+.wrapper p span{
+    color: rgb(42, 210, 36);
+    font-size: 25px;
+}
